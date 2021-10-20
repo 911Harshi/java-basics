@@ -3,6 +3,30 @@ package basics;
 public class Student {
 	String name;
 	int age;
+	/**
+	 * * default constructor --harshitha
+	 * */
+	public Student() {}	
+	
+	/**
+	 * lahari constructor
+	 *  @param name
+	 * @param age
+	 */
+	public Student(String name) {
+		this.name = name;
+		
+	}
+	/**
+	 * this is sathvika constructor
+	 * @param name
+	 * @param age
+	 */
+	public Student(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age-4;
+	}
 	static String COLLEGE_NAME = "NIT";
 	public String getName() {
 		return name;
