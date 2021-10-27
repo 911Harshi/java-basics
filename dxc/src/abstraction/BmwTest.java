@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import junit.framework.TestCase;
 
-public class BmwTest extends TestCase {
+public class BmwTest extends TestCase  {
 	@Test
 	public void testAdd() {
 		System.out.println("Iam in test add method");
